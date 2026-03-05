@@ -1,0 +1,16 @@
+name: minimal_server
+description: Minimal Serverpod 3.4.x server template.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  serverpod: ^3.4.0
+
+dev_dependencies:
+  serverpod_cli: ^3.4.0
+  serverpod_test: ^3.4.0
+  test: ^1.25.0
+  lints: ^4.0.0

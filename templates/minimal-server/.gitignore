@@ -1,0 +1,15 @@
+# Dart / Pub
+.dart_tool/
+.packages
+build/
+pubspec.lock
+
+# Serverpod generated code (regenerate with: dart run serverpod_cli generate)
+lib/src/generated/
+
+# Secrets — never commit these
+config/passwords.yaml
+config/production.yaml
+config/staging.yaml
+*.env
+.env*

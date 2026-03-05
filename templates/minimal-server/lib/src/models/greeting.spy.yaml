@@ -1,0 +1,9 @@
+class: Greeting
+table: greetings
+fields:
+  message: String
+  author: String
+  createdAt: DateTime
+indexes:
+  greetings_author_idx:
+    fields: author
